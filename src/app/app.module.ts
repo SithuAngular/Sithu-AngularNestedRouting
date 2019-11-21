@@ -9,6 +9,9 @@ import { Page404Component } from './page404/page404.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ApplyComponent } from './leaves/apply/apply.component';
 import { BalanceComponent } from './leaves/balance/balance.component';
+import { CasualComponent } from './leaves/balance/casual/casual.component';
+import { EarnedComponent } from './leaves/balance/earned/earned.component';
+import { Page404balanceComponent } from './leaves/balance/page404balance/page404balance.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { BalanceComponent } from './leaves/balance/balance.component';
     Page404Component,
     ProfileComponent,
     ApplyComponent,
-    BalanceComponent
+    BalanceComponent,
+    CasualComponent,
+    EarnedComponent,
+    Page404balanceComponent
   ],
   imports: [
     BrowserModule
